@@ -24,7 +24,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Please Input name"
-        android:textColorHint="@color/black"/>
+        android:textColorHint="@color/teal_700"/>
 
     <EditText
         android:id="@+id/passwordinput"
@@ -33,7 +33,7 @@
         android:ems="10"
         android:inputType="textPassword"
         android:hint="Please input password"
-        android:textColorHint="@color/black"/>
+        android:textColorHint="@color/teal_700"/>
 
     <Button
         android:id="@+id/submitbutton"
