@@ -11,6 +11,6 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         usernameDisplay=findViewById(R.id.UsernameDisplay)//overwrites the display from the textview in the xml
-        usernameDisplay.text=intent.getStringExtra("name")//getting intent from another activity,string is based on type from previous intent
+        usernameDisplay.text="Welcome!  ${intent.getStringExtra("name")}"//getting intent from another activity,string is based on type from previous intent
     }
 }
