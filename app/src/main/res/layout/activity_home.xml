@@ -18,4 +18,17 @@
         android:textStyle="bold"
         android:textSize="60sp"/>
 
+    <Button
+        android:id="@+id/profilebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to profile"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/settingsbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings" />
+
 </LinearLayout>
